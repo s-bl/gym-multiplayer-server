@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+pre-commit = "*"
+reorder-python-imports = "*"
+
+[packages]
+numpy = "*"
+ipython = "*"
+jupyter = "*"
+matplotlib = "*"
+laserhockey = {editable = true, git = "https://git@github.com/martius-lab/laser-hockey-env.git"}
+twisted = "*"
+box2d = "*"
+trueskill = "*"
+"pychart.js" = "*"
+imageio = "*"
+imageio-ffmpeg = "*"
+"zope.interface" = {editable = true, path = "."}
+
+[requires]
+python_version = "3.8"
